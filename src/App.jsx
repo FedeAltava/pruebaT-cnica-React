@@ -26,7 +26,7 @@ export function App () {
 
   return (
     <main>
-      <h1>APP de gatitos</h1>
+      <h1>APP de gatos</h1>
       {fact && <p>{fact}</p>}
       {imageUrl && <img src={`${CAT_PREFIX_IMAGE_URL}${imageUrl}`} alt='cat image' />}
     </main>
